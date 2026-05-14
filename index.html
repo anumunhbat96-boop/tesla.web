@@ -1,0 +1,892 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesla</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      style="
+        position: fixed;
+        width: 100%;
+        height: 56px;
+        background: rgba(0, 0, 0, 0.02);
+        backdrop-filter: blur(32px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div style="padding: 0 32px">
+        <img src="./Tesla Logo.png" />
+      </div>
+      <div>
+        <a style="padding: 6px 16px; color: #ffffff">Vehicles</a>
+        <a style="padding: 6px 16px; color: #ffffff">Energy</a>
+        <a style="padding: 6px 16px; color: #ffffff">Charging</a>
+        <a style="padding: 6px 16px; color: #ffffff">Discover</a>
+        <a style="padding: 6px 16px; color: #ffffff">Shop</a>
+      </div>
+      <div style="width: 216px"></div>
+    </nav>
+    <div style="height: 975px; position: relative">
+      <video
+        src="./Section1-Background (1).mp4"
+        muted
+        autoplay
+        loop
+        style="
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          z-index: -1;
+        "
+      ></video>
+
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          color: #ffffff;
+          gap: 2px;
+        "
+      >
+        <h1 style="font-size: 40px; margin-top: 72px">Model Y</h1>
+        <p style="font-size: 20px">From $31,890*</p>
+        <p style="font-size: 12px">
+          After Federal Tax Credit & Est. Gas Savings
+        </p>
+      </div>
+
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          margin-top: 597px;
+          gap: 8px;
+        "
+      >
+        <button
+          style="
+            padding: 11px 40px;
+            background-color: #f4f4f4cc;
+            opacity: 0.8;
+            border-radius: 4px;
+            font-size: 14px;
+            width: 264px;
+            height: 40px;
+          "
+        >
+          Shop Available
+        </button>
+        <button
+          style="
+            padding: 11px 40px;
+            background-color: #171a20a6;
+            opacity: 0.65;
+            border-radius: 4px;
+            color: #ffffff;
+            font-size: 14px;
+            width: 264px;
+            height: 40px;
+          "
+        >
+          Demo Drive
+        </button>
+      </div>
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 16px;
+          color: #ffffff;
+        "
+      >
+        <p style="font-size: 12px">
+          *Price before incentives and savings is $42,990, excluding taxes and
+          fees. Subject to change.
+        </p>
+        <a href="" style="font-size: 12px; color: #ffffff"
+          >Learn about est. gas savings.</a
+        >
+      </div>
+    </div>
+
+    <div
+      style="
+        height: 100vh;
+        width: 100%;
+        background-image: url(./section2-background.png);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px; color: #000000">Brand New Model 3</h1>
+        <p style="font-size: 20px; color: #000000">
+          Lease starting at $329/mo*
+        </p>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: #f4f4f4cc;
+              opacity: 0.8;
+              border-radius: 4px;
+              font-size: 14px;
+              width: 264px;
+              height: 40px;
+            "
+          >
+            Custom Order
+          </button>
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: #171a20a6;
+              opacity: 0.65;
+              border-radius: 4px;
+              color: #ffffff;
+              font-size: 14px;
+              width: 264px;
+              height: 40px;
+            "
+          >
+            Demo Drive
+          </button>
+        </div>
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 16px;
+            color: #ffffff;
+          "
+        >
+          <p style="font-size: 12px">
+            *Excludes taxes and fees with price subject to change. Available in
+            select states.
+          </p>
+          <a href="#" style="font-size: 12px; color: #ffffff">See Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="
+        height: 100vh;
+        width: 100%;
+        background-image: url(./section3-background.png);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px; color: #000000">Model X</h1>
+        <p style="font-size: 20px; color: #000000">From $68,590*</p>
+        <p style="font-size: 12px; color: #000000">
+          After Federal Tax Credit & Est. Gas Savings
+        </p>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: #f4f4f4cc;
+              opacity: 0.8;
+              border-radius: 4px;
+              font-size: 14px;
+              width: 264px;
+              height: 40px;
+            "
+          >
+            Custom Order
+          </button>
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: #171a20a6;
+              opacity: 0.65;
+              border-radius: 4px;
+              color: #ffffff;
+              font-size: 14px;
+              width: 264px;
+              height: 40px;
+            "
+          >
+            Demo Drive
+          </button>
+        </div>
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 16px;
+            color: #ffffff;
+          "
+        >
+          <p style="font-size: 12px">
+            *Price before incentives and savings is $79,990, excluding taxes and
+            fees. Subject to change.
+          </p>
+
+          <a href="#" style="font-size: 12px; color: #ffffff"
+            >Learn about est. gas savings.</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="
+        height: 100vh;
+        width: 100%;
+        background-image: url(./section4-background.png);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px; color: #000000">Model S</h1>
+        <p style="font-size: 20px; color: #000000">From $71,090*</p>
+        <p style="font-size: 12px; color: #000000">After Est. Gas Savings</p>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: #f4f4f4cc;
+              opacity: 0.8;
+              border-radius: 4px;
+              font-size: 14px;
+              width: 264px;
+              height: 40px;
+            "
+          >
+            Custom Order
+          </button>
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: #171a20a6;
+              opacity: 0.65;
+              border-radius: 4px;
+              color: #ffffff;
+              font-size: 14px;
+              width: 264px;
+              height: 40px;
+            "
+          >
+            Demo Drive
+          </button>
+        </div>
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 16px;
+            color: #000000;
+          "
+        >
+          <p style="font-size: 12px">
+            *Price before savings is $74,990, excluding taxes and fees. Subject
+            to change.
+          </p>
+
+          <a href="#" style="font-size: 12px; color: #000000"
+            >Learn about est. gas savings.</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="
+        height: 100vh;
+        width: 100%;
+        background-image: url(./section5-background.png);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px; color: #000000"></h1>
+        <p style="font-size: 20px; color: #000000"></p>
+        <p style="font-size: 12px; color: #000000"></p>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: #f4f4f4cc;
+              opacity: 0.8;
+              border-radius: 4px;
+              font-size: 14px;
+              width: 264px;
+              height: 40px;
+            "
+          >
+            Order Now
+          </button>
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: #171a20a6;
+              opacity: 0.95;
+              background: blur 8px;
+
+              border-radius: 4px;
+              color: #ffffff;
+              font-size: 14px;
+              width: 264px;
+              height: 40px;
+            "
+          >
+            Learn More
+          </button>
+        </div>
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 16px;
+            color: #000000;
+          "
+        >
+          >
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="
+        height: 100vh;
+        width: 100%;
+
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+      "
+    >
+      <video
+        src="./section6-background (1).mp4"
+        muted
+        autoplay
+        loop
+        style="
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          z-index: -1;
+        "
+      ></video>
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px; color: #ffffff">Experience Tesla</h1>
+        <p
+          style="
+            font-size: 12px;
+            color: #ffffff;
+            padding-top: 6px;
+            padding-bottom: 14px;
+          "
+        >
+          Schedule a Demo Drive Today
+        </p>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              padding: 11px 40px;
+              border: 3px #ffffff;
+              border-radius: 4px;
+
+              width: 264px;
+              height: 40px;
+            "
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="
+        height: 100vh;
+        width: 100%;
+        background-image: url(./section7-background.png);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px; color: #ffffff">Solar Panels</h1>
+        <a href="" style="font-size: 20px; color: #ffffff"
+          >Schedule a Virtual Consultation</a
+        >
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: #f4f4f4cc;
+              opacity: 0.8;
+              border-radius: 4px;
+              font-size: 14px;
+              width: 264px;
+              height: 40px;
+            "
+          >
+            Order Now
+          </button>
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: #171a20a6;
+              opacity: 0.65;
+              border-radius: 4px;
+              color: #ffffff;
+              font-size: 14px;
+              width: 264px;
+              height: 40px;
+              background: blur 8px;
+            "
+          >
+            Learn More
+          </button>
+        </div>
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 16px;
+            color: #000000;
+          "
+        ></div>
+      </div>
+    </div>
+
+    <div
+      style="
+        height: 100vh;
+        width: 100%;
+        background-image: url(./Section8-background.png);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px; color: #000000">Solar Roof</h1>
+        <p style="font-size: 14px; color: #000000">
+          Produce Clean Energy From Your Roof
+        </p>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: #f4f4f4cc;
+              opacity: 0.8;
+              border-radius: 4px;
+              font-size: 14px;
+              width: 264px;
+              height: 40px;
+            "
+          >
+            Order now
+          </button>
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: #171a20a6;
+              opacity: 0.65;
+              border-radius: 4px;
+              color: #ffffff;
+              font-size: 14px;
+              width: 264px;
+              height: 40px;
+            "
+          >
+            Learn More
+          </button>
+        </div>
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 16px;
+            color: #000000;
+          "
+        ></div>
+      </div>
+    </div>
+
+    <div
+      style="
+        height: 100vh;
+        width: 100%;
+        background-image: url(./section9-background.png);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px; color: #000000">Powerwall</h1>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 64px">
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: #f4f4f4cc;
+              opacity: 0.8;
+              border-radius: 4px;
+              font-size: 14px;
+              width: 264px;
+              height: 40px;
+            "
+          >
+            Order Now
+          </button>
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: #171a20a6;
+              opacity: 0.65;
+              border-radius: 4px;
+              color: #ffffff;
+              font-size: 14px;
+              width: 264px;
+              height: 40px;
+            "
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="
+        height: 100vh;
+        width: 100%;
+        background-image: url(./section10-background.png);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px; color: #000000">Accessories</h1>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            width: 264px;
+            height: 40px;
+            border-radius: 4px;
+            margin-bottom: 33px;
+          "
+        >
+          <button
+            style="
+              padding: 11px 40px;
+              background-color: white;
+
+              border-radius: 4px;
+              font-size: 14px;
+            "
+          >
+            Shop Now
+          </button>
+        </div>
+
+        <div style="display: flex; align-items: center">
+          <a
+            style="
+              font-size: 11.81px;
+              color: #ffffff;
+              padding-left: 8px;
+              padding-right: 8px;
+              padding-top: 8px;
+              padding-bottom: 8px;
+            "
+            ><div style="display: flex; align-items: center">
+              <a
+                style="
+                  font-size: 14px;
+                  color: #ffffff;
+                  padding-left: 16px;
+                  padding-right: 16px;
+                  padding-top: 6px;
+                  padding-bottom: 6px;
+                "
+                >Tesla © 2024</a
+              >
+              <a
+                style="
+                  font-size: 14px;
+                  color: #ffffff;
+                  padding-left: 16px;
+                  padding-right: 16px;
+                  padding-top: 6px;
+                  padding-bottom: 6px;
+                "
+                >Privacy & Legal</a
+              >
+              <a
+                style="
+                  font-size: 14px;
+                  color: #ffffff;
+                  padding-left: 16px;
+                  padding-right: 16px;
+                  padding-top: 6px;
+                  padding-bottom: 6px;
+                "
+                >Vehicle Recalls</a
+              >
+              <a
+                style="
+                  font-size: 14px;
+                  color: #ffffff;
+                  padding-left: 16px;
+                  padding-right: 16px;
+                  padding-top: 6px;
+                  padding-bottom: 6px;
+                "
+                >Contact</a
+              >
+              <a
+                style="
+                  font-size: 14px;
+                  color: #ffffff;
+                  padding-left: 16px;
+                  padding-right: 16px;
+                  padding-top: 6px;
+                  padding-bottom: 6px;
+                "
+                >News</a
+              >
+            </div></a
+          >
+          <a
+            style="
+              font-size: 14px;
+              color: #ffffff;
+              padding-left: 16px;
+              padding-right: 16px;
+              padding-top: 6px;
+              padding-bottom: 6px;
+            "
+            >Get Updates</a
+          >
+          <a
+            style="
+              font-size: 14px;
+              color: #ffffff;
+              padding-left: 16px;
+              padding-right: 16px;
+              padding-top: 6px;
+              padding-bottom: 6px;
+            "
+            >Locations</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
